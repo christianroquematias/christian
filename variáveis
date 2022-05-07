@@ -1,0 +1,60 @@
+# 1 Apresente a mensagem  "meu nome e"
+# 2 esse e meu primeiro print
+nome = "christian"
+print("meu nome e", nome, "esse e meu primeiro print")
+
+# calcule e apresente o produto entre 10*50
+produto1 = 10
+produto2 = 50
+print(produto
+# calcule e apresente a media entre as nomeros 8,9 e,7
+media1 = 8
+media2 = 9
+media3 = 7
+print((media1 + media2 + media3)/3)
+
+nome = input("Qual o seu nome? ")
+sobrenome = input("qual o seu sobrenome? ")
+print(nome, sobrenomech)
+
+numero1 = int(input("digite um nomero "))
+numero2 = int(input("digite outro numero "))
+print(numero1 + numero2)
+
+# Refala o programa das medias,agora com 4 notas, pedindo as notas para o usuario, e, por fim, mostra o resultado em tela.
+nota1 = int(input(" Digite a primeira nota " ))
+nota2 = int(input(" digite a segunda nota "))
+nota3 = int(input(" digite a terceira nota "))
+nota4 = int(input(" digite a quarta nota "))
+soma = nota1 + nota2 + nota3 + nota4
+print(soma)
+print(soma/4)
+
+# Refala o programa das medias,agora com 4 notas, pedindo as notas para o usuario, e, por fim, mostra o resultado em tela.
+nota1 = float(input(" Digite a primeira nota " ))
+nota2 = float(input(" digite a segunda nota "))
+nota3 = float(input(" digite a terceira nota "))
+nota4 = float(input(" digite a quarta nota "))
+soma = nota1 + nota2 + nota3 + nota4
+print(soma)
+print("media do aluno" , soma/4)
+
+soma1 = float(input(" Digite um numero: "))
+soma2 = float(input(" Digite um numero: "))
+somatotal = soma1 + soma2
+print(" A soma dos numeros e:", somatotal)
+
+diminuicao1 = float(input(" Digite um numero: "))
+diminuicao2 = float(input(" Digite um numero: "))
+diminuicaototal = diminuicao1 - diminuicao2
+print(" A subritação dos numeros e:", diminuicaototal)
+
+multiplicacao1 = float(input(" Digite um numero: "))
+multiplicacao2 = float(input(" Digite um numero: "))
+multiplicacaototal =multiplicacao1 * multiplicacao2
+print(" A multiplicação dos numeros e:", multiplicacaototal)
+
+divisao1 = float(input(" Digite um numero: "))
+divisao2 = float(input(" Digite um numero: "))
+divisaototal =divisao1 / divisao2
+print(" A divisão dos numeros e:", divisaototal)
