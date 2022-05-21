@@ -1,0 +1,42 @@
+numero = 1.51
+#print(round(numero))
+
+import math
+#print(math.floor(numero))
+# aredonda pra baixo
+print(math.ceil(numero))
+#nome = input("digite m")
+#print(nome.lower())
+nome = input("digite um texto minusculo")title()
+o print sendo so o nome
+print(nome.upper())
+numero = int(input("digite um mimero inteiro"))
+print(abs(numero))
+numero1 = int(input("digite um numeros ositivos inteiro"))
+numero2 = int(input("digite um numeros ositivos inteiro"))
+soma = numero1 + numero2
+print(soma)
+
+
+print(f"a soma de {numero1} + {numero2}  = {soma}")
+numero = 2.45678
+print(f"o numero e: {numero:.3f}")
+print("aroz" > "feijao")
+print("banana" == "banana")
+print("aroz" == "banana") and ("aroz" == "feijao")
+print ("aroz" == "banana") or ("feijao" == "feijao")
+'''numero = int(input("velocidade permitida "))
+if numero > 180:
+    print("doido")
+elif numero < 60:
+    print("velocidade permitida")
+elif numero > 60:
+    print("velocidade acima do permitido")'''
+velocidade = float(input("informe a velocidade: "))
+if velocidade <= 60:
+    print("esta na velocidade permitida")
+elif velocidade > 60 and    velocidade < 80:
+    print("esta a cima da velocidade permitida")
+else: velocidade >80 and velocidade <= 120:
+     print("esta muito rapodo")
+    
